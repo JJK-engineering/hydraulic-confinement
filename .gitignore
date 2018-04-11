@@ -6,3 +6,8 @@ desktop.ini
 \#*\#
 *.BAK
 *.bak
+
+# exclude large geopstial data #
+data/incoming
+tmp
+work/processing
