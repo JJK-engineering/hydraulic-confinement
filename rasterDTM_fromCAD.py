@@ -1,6 +1,7 @@
 # procedure for determining reading DXF file from CAD
-# and converting to raster DTM
-# and producing hillslpe raster
+#   and converting to raster DTM
+#   and producing hillslpe raster
+# intended to be used from python console in qgis
 
 # project name: 'Nam Ang'
 

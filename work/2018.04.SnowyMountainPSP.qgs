@@ -1,0 +1,506 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis projectname="" version="2.18.15">
+  <title></title>
+  <autotransaction active="0"/>
+  <evaluateDefaultValues active="0"/>
+  <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="">
+    <customproperties/>
+    <layer-tree-layer expanded="1" providerKey="gdal" checked="Qt::Unchecked" id="SnowyMountainsTopogRaster20180502194745001" source="/home/kaelin_joseph/DSS.HydraulicConfinement/data/in/SnowyMountainsTopogRaster.tif" name="SnowyMountainsTopogRaster">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" providerKey="grassraster" checked="Qt::Unchecked" id="rasterTerrain20180502194034926" source="/home/kaelin_joseph/DSS.HydraulicConfinement//SnowyMountatins/project/cellhd/rasterTerrain" name="rasterTerrain">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" providerKey="grassraster" checked="Qt::Unchecked" id="rasterContoursTerrain20180502193017518" source="/home/kaelin_joseph/DSS.HydraulicConfinement//SnowyMountatins/project/cellhd/rasterContoursTerrain" name="rasterContoursTerrain">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" providerKey="gdal" checked="Qt::Checked" id="SnowyMountainsSlopeRaster20180502201147127" source="/home/kaelin_joseph/DSS.HydraulicConfinement/data/in/SnowyMountainsSlopeRaster.tif" name="SnowyMountainsSlopeRaster">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" providerKey="grass" checked="Qt::Unchecked" id="vectorTerrain20180502183855395" source="/home/kaelin_joseph/DSS.HydraulicConfinement//SnowyMountatins/project/vectorTerrain/1_line" name="vectorTerrain">
+      <customproperties/>
+    </layer-tree-layer>
+  </layer-tree-group>
+  <relations/>
+  <mapcanvas>
+    <units>meters</units>
+    <extent>
+      <xmin>616924.79038500017486513</xmin>
+      <ymin>6026677.20206000003963709</ymin>
+      <xmax>658316.46301499963738024</xmax>
+      <ymax>6044387.06654000002890825</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <projections>1</projections>
+    <destinationsrs>
+      <spatialrefsys>
+        <proj4>+proj=utm +zone=55 +south +datum=WGS84 +units=m +no_defs</proj4>
+        <srsid>3205</srsid>
+        <srid>32755</srid>
+        <authid>EPSG:32755</authid>
+        <description>WGS 84 / UTM zone 55S</description>
+        <projectionacronym>utm</projectionacronym>
+        <ellipsoidacronym>WGS84</ellipsoidacronym>
+        <geographicflag>false</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+    <layer_coordinate_transform_info>
+      <layer_coordinate_transform destAuthId="EPSG:32755" srcAuthId="EPSG:32755" srcDatumTransform="-1" destDatumTransform="-1" layerid="vectorTerrain20180502183855395"/>
+      <layer_coordinate_transform destAuthId="EPSG:32755" srcAuthId="EPSG:32755" srcDatumTransform="-1" destDatumTransform="-1" layerid="SnowyMountainsSlopeRaster20180502201147127"/>
+      <layer_coordinate_transform destAuthId="EPSG:32755" srcAuthId="EPSG:32648" srcDatumTransform="-1" destDatumTransform="-1" layerid="NamAngTopogSlopeRaster20180502200458157"/>
+    </layer_coordinate_transform_info>
+  </mapcanvas>
+  <layer-tree-canvas>
+    <custom-order enabled="0">
+      <item>vectorTerrain20180502183855395</item>
+      <item>rasterContoursTerrain20180502193017518</item>
+      <item>rasterTerrain20180502194034926</item>
+      <item>SnowyMountainsTopogRaster20180502194745001</item>
+      <item>SnowyMountainsSlopeRaster20180502201147127</item>
+    </custom-order>
+  </layer-tree-canvas>
+  <legend updateDrawingOrder="true">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="SnowyMountainsTopogRaster" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="SnowyMountainsTopogRaster20180502194745001" visible="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="rasterTerrain" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="rasterTerrain20180502194034926" visible="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="rasterContoursTerrain" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="rasterContoursTerrain20180502193017518" visible="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="SnowyMountainsSlopeRaster" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="SnowyMountainsSlopeRaster20180502201147127" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="vectorTerrain" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="vectorTerrain20180502183855395" visible="0"/>
+      </filegroup>
+    </legendlayer>
+  </legend>
+  <projectlayers>
+    <maplayer minimumScale="inf" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>619000</xmin>
+        <ymin>6029000</ymin>
+        <xmax>656000</xmax>
+        <ymax>6043000</ymax>
+      </extent>
+      <id>SnowyMountainsSlopeRaster20180502201147127</id>
+      <datasource>../data/in/SnowyMountainsSlopeRaster.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>SnowyMountainsSlopeRaster</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=utm +zone=55 +south +datum=WGS84 +units=m +no_defs</proj4>
+          <srsid>3205</srsid>
+          <srid>32755</srid>
+          <authid>EPSG:32755</authid>
+          <description>WGS 84 / UTM zone 55S</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="embeddedWidgets/count" value="0"/>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="1"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="0" classificationMax="35.5925" classificationMinMaxOrigin="CumulativeCutFullExtentEstimated" band="1" classificationMin="0.308963" type="singlebandpseudocolor">
+          <rasterTransparency/>
+          <rastershader>
+            <colorrampshader colorRampType="INTERPOLATED" clip="0">
+              <item alpha="255" value="0.309" label="0.309" color="#2b83ba"/>
+              <item alpha="255" value="9.13" label="9.13" color="#abdda4"/>
+              <item alpha="255" value="18" label="18" color="#ffffbf"/>
+              <item alpha="255" value="26.8" label="26.8" color="#fdae61"/>
+              <item alpha="255" value="35.6" label="35.6" color="#d7191c"/>
+            </colorrampshader>
+          </rastershader>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minimumScale="inf" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>619000</xmin>
+        <ymin>6029000</ymin>
+        <xmax>656000</xmax>
+        <ymax>6043000</ymax>
+      </extent>
+      <id>SnowyMountainsTopogRaster20180502194745001</id>
+      <datasource>../data/in/SnowyMountainsTopogRaster.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>SnowyMountainsTopogRaster</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=utm +zone=55 +south +datum=WGS84 +units=m +no_defs</proj4>
+          <srsid>3205</srsid>
+          <srid>32755</srid>
+          <authid>EPSG:32755</authid>
+          <description>WGS 84 / UTM zone 55S</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="embeddedWidgets/count" value="0"/>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="1"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="0" classificationMax="1539" classificationMinMaxOrigin="CumulativeCutFullExtentEstimated" band="1" classificationMin="590.25" type="singlebandpseudocolor">
+          <rasterTransparency/>
+          <rastershader>
+            <colorrampshader colorRampType="INTERPOLATED" clip="0">
+              <item alpha="255" value="590.2" label="590.2" color="#2b83ba"/>
+              <item alpha="255" value="827.4" label="827.4" color="#abdda4"/>
+              <item alpha="255" value="1065" label="1065" color="#ffffbf"/>
+              <item alpha="255" value="1302" label="1302" color="#fdae61"/>
+              <item alpha="255" value="1539" label="1539" color="#d7191c"/>
+            </colorrampshader>
+          </rastershader>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minimumScale="inf" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>616925</xmin>
+        <ymin>6022590</ymin>
+        <xmax>658316</xmax>
+        <ymax>6048480</ymax>
+      </extent>
+      <id>rasterContoursTerrain20180502193017518</id>
+      <datasource>../SnowyMountatins/project/cellhd/rasterContoursTerrain</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <timestamp>2018-05-02T19:30:16</timestamp>
+      <layername>rasterContoursTerrain</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=utm +zone=55 +south +datum=WGS84 +units=m +no_defs</proj4>
+          <srsid>3205</srsid>
+          <srid>32755</srid>
+          <authid>EPSG:32755</authid>
+          <description>WGS 84 / UTM zone 55S</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="embeddedWidgets/count" value="0"/>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>grassraster</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="1"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="0" classificationMax="1559.12" classificationMinMaxOrigin="CumulativeCutFullExtentEstimated" band="1" classificationMin="599.98" type="singlebandpseudocolor">
+          <rasterTransparency/>
+          <rastershader>
+            <colorrampshader colorRampType="INTERPOLATED" clip="0">
+              <item alpha="255" value="550" label="550" color="#ffff00"/>
+              <item alpha="255" value="788" label="788" color="#00ff00"/>
+              <item alpha="255" value="1026" label="1026" color="#00ffff"/>
+              <item alpha="255" value="1264" label="1264" color="#0000ff"/>
+              <item alpha="255" value="1502" label="1502" color="#ff00ff"/>
+              <item alpha="255" value="1740" label="1740" color="#ff0000"/>
+            </colorrampshader>
+          </rastershader>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minimumScale="inf" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>616925</xmin>
+        <ymin>6022590</ymin>
+        <xmax>658316</xmax>
+        <ymax>6048480</ymax>
+      </extent>
+      <id>rasterTerrain20180502194034926</id>
+      <datasource>../SnowyMountatins/project/cellhd/rasterTerrain</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <timestamp>2018-05-02T19:40:32</timestamp>
+      <layername>rasterTerrain</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=utm +zone=55 +south +datum=WGS84 +units=m +no_defs</proj4>
+          <srsid>3205</srsid>
+          <srid>32755</srid>
+          <authid>EPSG:32755</authid>
+          <description>WGS 84 / UTM zone 55S</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="embeddedWidgets/count" value="0"/>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>grassraster</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="1"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="0" classificationMax="1553.17" classificationMinMaxOrigin="CumulativeCutFullExtentEstimated" band="1" classificationMin="584.51" type="singlebandpseudocolor">
+          <rasterTransparency/>
+          <rastershader>
+            <colorrampshader colorRampType="INTERPOLATED" clip="0">
+              <item alpha="255" value="584.5" label="584.5" color="#2b83ba"/>
+              <item alpha="255" value="826.7" label="826.7" color="#abdda4"/>
+              <item alpha="255" value="1069" label="1069" color="#ffffbf"/>
+              <item alpha="255" value="1311" label="1311" color="#fdae61"/>
+              <item alpha="255" value="1553" label="1553" color="#d7191c"/>
+            </colorrampshader>
+          </rastershader>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <extent>
+        <xmin>617910.30640000011771917</xmin>
+        <ymin>6027098.8655000003054738</ymin>
+        <xmax>657330.9469999996945262</xmax>
+        <ymax>6043965.40309999976307154</ymax>
+      </extent>
+      <id>vectorTerrain20180502183855395</id>
+      <datasource>../SnowyMountatins/project/vectorTerrain/1_line</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>vectorTerrain</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=utm +zone=55 +south +datum=WGS84 +units=m +no_defs</proj4>
+          <srsid>3205</srsid>
+          <srid>32755</srid>
+          <authid>EPSG:32755</authid>
+          <description>WGS 84 / UTM zone 55S</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="System">grass</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="cat">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="elevation">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="Contour">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="Type">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+      </edittypes>
+      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="line" name="0">
+            <layer pass="0" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="square"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="130,54,181,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="0.26"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale scalemethod="diameter"/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <displayfield>cat</displayfield>
+      <label>0</label>
+      <labelattributes>
+        <label fieldname="" text="Label"/>
+        <family fieldname="" name="Sans Serif"/>
+        <size fieldname="" units="pt" value="12"/>
+        <bold fieldname="" on="0"/>
+        <italic fieldname="" on="0"/>
+        <underline fieldname="" on="0"/>
+        <strikeout fieldname="" on="0"/>
+        <color fieldname="" red="0" blue="0" green="0"/>
+        <x fieldname=""/>
+        <y fieldname=""/>
+        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+        <angle fieldname="" value="0" auto="0"/>
+        <alignment fieldname="" value="center"/>
+        <buffercolor fieldname="" red="255" blue="255" green="255"/>
+        <buffersize fieldname="" units="pt" value="1"/>
+        <bufferenabled fieldname="" on=""/>
+        <multilineenabled fieldname="" on=""/>
+        <selectedonly on=""/>
+      </labelattributes>
+      <annotationform></annotationform>
+      <aliases>
+        <alias field="cat" index="0" name=""/>
+        <alias field="elevation" index="1" name=""/>
+        <alias field="Contour" index="2" name=""/>
+        <alias field="Type" index="3" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions default="-1"/>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="3">
+        <columns>
+          <column width="-1" hidden="0" type="field" name="cat"/>
+          <column width="-1" hidden="0" type="field" name="elevation"/>
+          <column width="-1" hidden="0" type="field" name="Contour"/>
+          <column width="-1" hidden="0" type="field" name="Type"/>
+          <column width="-1" hidden="1" type="actions"/>
+        </columns>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <defaults>
+        <default field="cat" expression=""/>
+        <default field="elevation" expression=""/>
+        <default field="Contour" expression=""/>
+        <default field="Type" expression=""/>
+      </defaults>
+      <previewExpression>COALESCE( "cat", '&lt;NULL>' )</previewExpression>
+    </maplayer>
+  </projectlayers>
+  <properties>
+    <Measurement>
+      <DistanceUnits type="QString">meters</DistanceUnits>
+      <AreaUnits type="QString">m2</AreaUnits>
+    </Measurement>
+    <SpatialRefSys>
+      <ProjectCRSProj4String type="QString">+proj=longlat +datum=WGS84 +no_defs</ProjectCRSProj4String>
+      <ProjectCrs type="QString">EPSG:4326</ProjectCrs>
+      <ProjectCRSID type="int">3452</ProjectCRSID>
+      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
+    </SpatialRefSys>
+    <Paths>
+      <Absolute type="bool">false</Absolute>
+    </Paths>
+    <Gui>
+      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+      <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+    </Gui>
+    <Digitizing>
+      <DefaultSnapToleranceUnit type="int">2</DefaultSnapToleranceUnit>
+      <LayerSnappingList type="QStringList">
+        <value>vectorTerrain20180502183855395</value>
+      </LayerSnappingList>
+      <LayerSnappingEnabledList type="QStringList">
+        <value>disabled</value>
+      </LayerSnappingEnabledList>
+      <SnappingMode type="QString">current_layer</SnappingMode>
+      <AvoidIntersectionsList type="QStringList"/>
+      <LayerSnappingToleranceUnitList type="QStringList">
+        <value>2</value>
+      </LayerSnappingToleranceUnitList>
+      <LayerSnapToList type="QStringList">
+        <value>to_vertex_and_segment</value>
+      </LayerSnapToList>
+      <DefaultSnapType type="QString">off</DefaultSnapType>
+      <DefaultSnapTolerance type="double">0</DefaultSnapTolerance>
+      <LayerSnappingToleranceList type="QStringList">
+        <value>0.000000</value>
+      </LayerSnappingToleranceList>
+    </Digitizing>
+    <PositionPrecision>
+      <DecimalPlaces type="int">2</DecimalPlaces>
+      <Automatic type="bool">true</Automatic>
+    </PositionPrecision>
+    <Legend>
+      <filterByMap type="bool">false</filterByMap>
+    </Legend>
+  </properties>
+  <visibility-presets/>
+</qgis>
